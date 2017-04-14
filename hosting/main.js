@@ -1,4 +1,4 @@
-// Insert create user method bellow
+// Insert create user method below
 var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.me');
 
 function submitForm() {
@@ -20,7 +20,7 @@ function submitForm() {
 // Insert create user method above
 
 
-// Insert sign-in method bellow
+// Insert sign-in method below
 function signIn() {
 	auth.signInWithEmailAndPassword(user.email.value, user.password.value)
 	.then(function() {
@@ -33,7 +33,7 @@ function signIn() {
 // Insert sign-in method above
 
 
-// Insert current user selector bellow
+// Insert current user selector below
 document.querySelector('.username').innerHTML = auth.currentUser.name;
 // Insert current user selector above
 
