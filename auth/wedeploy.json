@@ -1,0 +1,7 @@
+{
+	"image": "wedeploy/auth:beta",
+	"env": {
+		"WEDEPLOY_AUTH_PASSWORD": "true",
+		"WEDEPLOY_AUTH_SECURE_FIELDS": "password"
+	}
+}

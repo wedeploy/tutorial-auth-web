@@ -1,5 +1,5 @@
 // Insert create user method below
-var auth = WeDeploy.auth('auth.tutorial-auth-web.wedeploy.io');
+var auth = WeDeploy.auth('auth-tutorialauthweb.wedeploy.sh');
 
 function submitForm() {
 	auth.createUser({
